@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 const moreBtn = document.querySelector(".btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I knew you would say yes";
+  question.innerHTML = "I knew you would say yes! ";
   gif.style.transform = "scale(0.7)";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
