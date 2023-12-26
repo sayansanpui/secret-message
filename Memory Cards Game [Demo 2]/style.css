@@ -188,7 +188,7 @@ p {
   border: 2px solid #6563ff;
   transition: 0.3s ease;
   text-align: center;
-  display: none;
+  /* display: none; */
 }
 
 .nextBtn a {
@@ -197,10 +197,11 @@ p {
 }
 
 .nextBtn:hover {
+  color: #fff;
   background: #6563ff;
 }
 
-.nextBtn:hover a {
+.nextBtn:hover .details1 a {
   color: #fff;
 }
 
