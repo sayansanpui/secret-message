@@ -3,11 +3,16 @@ const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
+const moreBtn = document.querySelector(".btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I knew you would say yes! wifeee";
+  question.innerHTML = "I knew you would say yes";
+  gif.style.transform = "scale(0.7)";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+  yesBtn.style.display = "none";
+  noBtn.style.display = "none";
+  moreBtn.style.display = "none";
 });
 
 noBtn.addEventListener("mouseover", () => {

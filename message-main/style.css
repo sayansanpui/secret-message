@@ -9,11 +9,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: whitesmoke;
+    /* background: whitesmoke; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .heroImg {
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +56,7 @@ button {
 
 .yes-btn {
     margin-left: -200px;
-    background: #e94d58;
+    background-color: #e94d58;
 }
 
 .no-btn {
@@ -75,10 +76,5 @@ button {
 .btn {
     margin-right: 0px;
     background: white;
-    color: #e94d58;
-}
-
-.btn a {
-    text-decoration: none;
     color: #e94d58;
 }
