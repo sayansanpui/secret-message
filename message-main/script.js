@@ -7,7 +7,7 @@ const moreBtn = document.querySelector(".btn");
 const noBtns = document.querySelectorAll(".btnAll");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I love you tooo... ";
+  question.innerHTML = "I love you tooo... wifeee";
   gif.style.transform = "scale(0.7)";
   gif.src =
   "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnJjeTVjcHAwdXU4cmNjZ2hsdTExZm80enJvejZkeXU5cW1rNGhjOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4N1wOi78ZGzSB6H7vK/giphy.gif";

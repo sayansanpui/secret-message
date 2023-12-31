@@ -4,7 +4,7 @@ flipsTag = document.querySelector(".flips b"),
 refreshBtn = document.querySelector(".details button");
 nextBtn = document.querySelector(".nextBtn");
 
-let maxTime = 1000;
+let maxTime = 15;
 let timeLeft = maxTime;
 let flips = 0;
 let matchedCard = 0;
